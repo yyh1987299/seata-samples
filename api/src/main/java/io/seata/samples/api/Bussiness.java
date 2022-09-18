@@ -46,6 +46,7 @@ public class Bussiness {
      * @throws TransactionException the transaction exception
      */
     public static void main(String[] args) throws SQLException, TransactionException, InterruptedException {
+        System.out.println("第三次提交");
         System.out.println("第一次提交测试");
         String userId = "U100001";
         String commodityCode = "C00321";
